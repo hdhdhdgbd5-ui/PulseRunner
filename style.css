@@ -1,0 +1,9 @@
+html, body { margin:0; padding:0; height:100%; background:#0b0f1a; color:#eaf2ff; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+#wrap { position:relative; width:100%; height:100%; overflow:hidden; }
+#game { width:100%; height:100%; display:block; }
+#ui { position:absolute; top:0; left:0; right:0; padding:16px; text-align:center; pointer-events:none; }
+#ui .row { display:flex; justify-content:space-between; font-weight:700; font-size:20px; }
+#meter { width:100%; height:10px; background:#1e2636; border-radius:8px; overflow:hidden; margin:12px 0; }
+#meterFill { height:100%; width:0%; background:linear-gradient(90deg,#4ef0ff,#7cff7c); transition:width 80ms linear; }
+#startBtn { pointer-events:auto; border:0; padding:12px 22px; border-radius:10px; background:#4ef0ff; color:#00202a; font-weight:800; margin-top:8px; }
+#hint { opacity:0.7; margin-top:10px; font-size:14px; }
